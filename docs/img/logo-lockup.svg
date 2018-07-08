@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="350px" viewBox="0 0 350 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-lockup</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logo-lockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M212.657435,149.363342 L159.5003,202.520477 L159.5003,222.791993 L175.001193,238.292887 L238.2929,174.998807 L212.657435,149.363342 Z M142.4994,144.206507 L111.707094,174.998813 L142.4994,205.793429 L142.4994,144.206507 Z M200.636658,137.342565 L175.001173,111.70708 L159.5003,127.205629 L159.5003,178.478923 L200.636658,137.342565 Z" id="Page-1" stroke="#111111"></path>
+        <circle id="fork" fill-opacity="0.3" fill="#0066FF" cx="151" cy="175" r="8"></circle>
+        <circle id="fork-copy" fill-opacity="0.3" fill="#0066FF" cx="175" cy="175" r="8"></circle>
+    </g>
+</svg>
