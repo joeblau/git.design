@@ -1,0 +1,14 @@
+os: linux
+dist: trusty
+language: generic
+before_deploy:
+- .travis/create-release.sh ${TRAVIS_TAG}
+deploy:
+  provider: releases
+  api_key:
+    secure: wkZG+FpnF/i7bQ/Lj3eTy4ZZvXXCqy3BZcHx8cn9TWclDqAUPF+NJYBgVlnOGapAkrpbX8B2rKqF1mg4j7DmGa/OyPhBHKuWthwn7YJh+bcGSYTrhOtc8m+1BgLV8kWbmZLDbSn1DsPyBU0c8eyaLWIXK3a7ttDzjOA9Apcu8xdNDO19t3W4XU47fSTTowhKEZE+zZ8j/fJpPX42bEK1eLAvGmQvFdzo2vebK3QJLmUaIC1nXBVlDWw4S8KqtoEVQmAd5/xIy3i9NoVGy9Xti8dqDgicHYmSVOYRJUBMs43Lh+nl9/jNs5iBi/0Z5Ul0KldvIYih+2v4e76R0qX5xH9NIBftzi0LbSwcpkXz5T8bPMlJXZ/NR0j3gamF/QNyHRuE5qD48a9fR4ZEVX/7RBZrrp0wjl6jtskDmBYshqXL/dRpX+c7Ha6seNTHYZnpa9+whBm7YB2htqjDMdJm81//CCTamL3DdULAjNtWJPRoT0YwR81phuKbNnRmyhIks5wa7bmuP6DoZRv377BnhJHVsfnTJVeylSSghP6DSnr3YeIbUBjQzm97KLFhKxaIcvlfl/YjI0RmwtZFuGGWpCHTqk9n6d00nxABxJggvorBKLpMk2xbKzhsWmVApbC/esHWfbRFQoujBWyT7a8FkByPREVEXW7OYQ660bq0XlI=
+  file: git-design-guide-assets-${TRAVIS_TAG}.zip
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: dvcs/git.design
